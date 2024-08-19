@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Project1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/cyan</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:editTextColor">@color/grey</item>
+         <item name="colorPrimaryVariant">@color/cyan</item>
+         <item name="android:statusBarColor">@color/cyan</item>
+
+    </style>
+    <style name="CyanButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_editbutton</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- Any other attributes you want to define for your button -->
+    </style>
+
+
+    <style name="Theme.Project1" parent="Base.Theme.Project1" />
+</resources>
